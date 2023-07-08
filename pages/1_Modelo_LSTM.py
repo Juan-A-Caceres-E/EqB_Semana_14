@@ -1,14 +1,16 @@
 import streamlit as st
-#Cargamos los Datos
-import yfinance as yf
-brk = yf.Ticker('MSFT')
-
 # Título de la aplicación
 st.title("MODELO LSTM")
 # Descripción del modelo LSTM
 st.markdown("""
 Haremos una LSTM muy simple con Keras para predecir el precio de las acciones de Microsoft Corporation
             """)
+st.write('Escriba una etiqueta de cotizacion')
+ticker = st.text_input('Etiqueta de cotización', 'MSFT')
+st.write('La etiqueta de cotización actual es', ticker)
+#Cargamos los Datos
+import yfinance as yf
+brk = yf.Ticker(ticker)
 # Opciones para el radio button
 opciones = ['Usar Todo el Registo', 'Seleccionar Rango de Fechas']
 
