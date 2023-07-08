@@ -37,4 +37,4 @@ snscrape==0.4.3.20220106
 graphviz==0.20.1
 keras==2.11.0
 keras-mixed-sequence==1.0.28
-
+tensorflow==2.7
