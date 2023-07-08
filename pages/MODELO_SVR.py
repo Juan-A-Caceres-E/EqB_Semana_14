@@ -28,7 +28,6 @@ st.write(
 
 ticker = st.text_input('Etiqueta de cotización', 'BVN')
 st.write('La etiqueta de cotización actual es', ticker)
-st.write('Compañía de Minas Buenaventura S.A.A. (BVN)') 
 tic = yf.Ticker(ticker)
 tic
 
