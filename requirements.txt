@@ -16,7 +16,7 @@ numpy==1.23.5
 packaging==22.0
 pandas==1.5.2
 Pillow==9.3.0
-protobuf==3.19.1
+protobuf
 pycodestyle==2.8.0
 pyparsing==3.0.9
 python-dateutil==2.8.2
@@ -37,4 +37,4 @@ snscrape==0.4.3.20220106
 graphviz==0.20.1
 keras==2.11.0
 keras-mixed-sequence==1.0.28
-tensorflow==2.13
+tensorflow
