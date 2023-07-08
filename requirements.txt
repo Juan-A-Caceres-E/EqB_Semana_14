@@ -16,7 +16,6 @@ numpy==1.23.5
 packaging==22.0
 pandas==1.5.2
 Pillow==9.3.0
-protobuf
 pycodestyle==2.8.0
 pyparsing==3.0.9
 python-dateutil==2.8.2
@@ -28,7 +27,6 @@ scipy==1.9.3
 six==1.16.0
 threadpoolctl==3.1.0
 toml==0.10.2
-urllib3==1.26.13
 yfinance==0.1.87
 Quandl==3.7.0
 wordcloud==1.8.2.2
@@ -37,4 +35,8 @@ snscrape==0.4.3.20220106
 graphviz==0.20.1
 keras==2.11.0
 keras-mixed-sequence==1.0.28
-tensorflow
+tensorflow==2.11.1
+tensorboard==2.11.2
+google-auth==2.21.0
+protobuf>=3.9.2,<3.20
+urllib3>=1.26.7,<2.0
