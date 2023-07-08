@@ -3,7 +3,7 @@ import streamlit as st
 st.title("MODELO LSTM")
 # Descripción del modelo LSTM
 st.markdown("""
-Haremos una LSTM muy simple con Keras para predecir el precio de las acciones de Microsoft Corporation
+Haremos una LSTM muy simple con Keras para predecir el precio de las acciones de una etiqueta de cotizacion
             """)
 st.write('Escriba una etiqueta de cotizacion')
 ticker = st.text_input('Etiqueta de cotización', 'MSFT')
