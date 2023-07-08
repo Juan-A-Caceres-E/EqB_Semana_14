@@ -1,8 +1,8 @@
 import streamlit as st
 import subprocess
 
-# Instalar TensorFlow
-subprocess.check_call(["pip", "install", "tensorflow"])
+# Instalar TensorFlow 2.7
+subprocess.check_call(["pip", "install", "tensorflow==2.7"])
 #Cargamos los Datos
 import yfinance as yf
 brk = yf.Ticker('MSFT')
